@@ -7,14 +7,15 @@ Pod::Spec.new do |s|
      s.homepage     = "https://github.com/filipemvpereira/MyFramework.git"
      s.license      = { :type => "MIT", :text => "The MIT License (MIT)\n Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files" }
      s.author       = { "Filipe Pereira" => "filas21pereira@gmail.com" }
-     s.source       = { :git => "https://github.com/filipemvpereira/MyFramework.git", :tag => s.version }
-     s.source_files = "FPFramework", "FPFramework/*.swift"
+     s.source       = { :git => "https://github.com/filipemvpereira/MyFramework.git", :tag => s.version.to_s }
+     s.source_files = "FPFramework/FPSetup.swift"
      s.exclude_files =  "Classes/Exclude"
      s.ios.deployment_target = '12.0'
      s.swift_version = "4.2"
 
 
 end
+ 
 
 
 # Pod::Spec.new do |s|
