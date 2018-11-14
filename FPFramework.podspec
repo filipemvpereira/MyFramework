@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
      s.name         = "FPFramework"
-     s.version      = "1.0.0"
+     s.version      = "0.1.0"
      s.summary      = "Sort description of Filipe framework"
      s.description  = "Demo example of Cocoa Touch Framework. In this example you can distrubute framework without sharing the source code."
      s.homepage     = "https://github.com/filipemvpereira/MyFramework.git"
@@ -10,8 +10,10 @@ Pod::Spec.new do |s|
      s.source       = { :git => "https://github.com/filipemvpereira/MyFramework.git", :tag => s.version.to_s }
      s.source_files = "FPFramework/FPSetup.swift"
      s.exclude_files =  "Classes/Exclude"
-     s.ios.deployment_target = '12.0'
+     # s.ios.deployment_target = '12.0'
      s.swift_version = "4.2"
+     s.requires_arc  = true
+     s.platform      = :ios, "10.0"
 
 
 end
