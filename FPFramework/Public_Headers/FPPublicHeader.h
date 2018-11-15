@@ -10,10 +10,7 @@
 #error This version for iOS supports iOS 8.0 upwards.
 #endif
 
-NS_ASSUME_NONNULL_BEGIN
-
-
-@interface FPFramework : NSObject
+@interface FPPublicHeader : NSObject
 
 
 + (void)setApiKey:(NSString *)apiKey forAppId:(NSString *)appId;
@@ -21,4 +18,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END

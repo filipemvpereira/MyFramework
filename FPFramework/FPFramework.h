@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char FPFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <FPFramework/PublicHeader.h>
 
 
+#import "FPFramework/FPPublicHeader.h"

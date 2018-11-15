@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E3EA806219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
 		0E3EA807219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
-		0EB24655219DE05C006B973B /* FPPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB24654219DE05C006B973B /* FPPublicHeader.h */; };
+		0EB24655219DE05C006B973B /* FPPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB24654219DE05C006B973B /* FPPublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ED35C5C2199C8F6005866C7 /* FPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED35C522199C8F6005866C7 /* FPFramework.framework */; };
 		0ED35C612199C8F6005866C7 /* FPFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED35C602199C8F6005866C7 /* FPFrameworkTests.swift */; };
 		0ED35C632199C8F6005866C7 /* FPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED35C552199C8F6005866C7 /* FPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,12 +87,12 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
-		0EB24653219DE03B006B973B /* Headers */ = {
+		0EB24653219DE03B006B973B /* Public_Headers */ = {
 			isa = PBXGroup;
 			children = (
 				0EB24654219DE05C006B973B /* FPPublicHeader.h */,
 			);
-			path = Headers;
+			path = Public_Headers;
 			sourceTree = "<group>";
 		};
 		0ED35C482199C8F6005866C7 = {
@@ -118,7 +118,7 @@
 		0ED35C542199C8F6005866C7 /* FPFramework */ = {
 			isa = PBXGroup;
 			children = (
-				0EB24653219DE03B006B973B /* Headers */,
+				0EB24653219DE03B006B973B /* Public_Headers */,
 				0E3EA804219D83520068DAB1 /* Private */,
 				0E3EA803219D83440068DAB1 /* Public */,
 				0ED35C552199C8F6005866C7 /* FPFramework.h */,
