@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
      s.name         = "FPFramework"
-     s.version      = "0.1.6"
+     s.version      = "0.1.7"
      s.summary      = "Sort description of Filipe framework"
      s.description  = "Demo example of Cocoa Touch Framework. In this example you can distrubute framework without sharing the source code."
      s.homepage     = "https://github.com/filipemvpereira/MyFramework.git"
@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
      s.platform      = :ios, "8.0"
      s.swift_version = '4.2'
 
+     s.dependency = "ObjectMapper"
 
 
 end
