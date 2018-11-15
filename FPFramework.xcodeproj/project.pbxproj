@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3EA806219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
+		0E3EA807219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
 		0ED35C5C2199C8F6005866C7 /* FPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED35C522199C8F6005866C7 /* FPFramework.framework */; };
 		0ED35C612199C8F6005866C7 /* FPFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED35C602199C8F6005866C7 /* FPFrameworkTests.swift */; };
 		0ED35C632199C8F6005866C7 /* FPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED35C552199C8F6005866C7 /* FPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +31,7 @@
 /* Begin PBXFileReference section */
 		00BFC62FF529131432194507 /* Pods-FPFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPFrameworkTests/Pods-FPFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		018A58F338EF85D463E5EF7E /* Pods-FPFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPFrameworkTests/Pods-FPFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E3EA805219D83660068DAB1 /* FPPrivate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPPrivate.swift; sourceTree = "<group>"; };
 		0ED35C522199C8F6005866C7 /* FPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED35C552199C8F6005866C7 /* FPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFramework.h; sourceTree = "<group>"; };
 		0ED35C562199C8F6005866C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +66,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E3EA803219D83440068DAB1 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				0ED35C6C2199C91E005866C7 /* FPSetup.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0E3EA804219D83520068DAB1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				0E3EA805219D83660068DAB1 /* FPPrivate.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
 		0ED35C482199C8F6005866C7 = {
 			isa = PBXGroup;
 			children = (
@@ -86,9 +105,10 @@
 		0ED35C542199C8F6005866C7 /* FPFramework */ = {
 			isa = PBXGroup;
 			children = (
+				0E3EA804219D83520068DAB1 /* Private */,
+				0E3EA803219D83440068DAB1 /* Public */,
 				0ED35C552199C8F6005866C7 /* FPFramework.h */,
 				0ED35C562199C8F6005866C7 /* Info.plist */,
-				0ED35C6C2199C91E005866C7 /* FPSetup.swift */,
 			);
 			path = FPFramework;
 			sourceTree = "<group>";
@@ -292,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED35C6D2199C91E005866C7 /* FPSetup.swift in Sources */,
+				0E3EA806219D83660068DAB1 /* FPPrivate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3EA807219D83660068DAB1 /* FPPrivate.swift in Sources */,
 				0ED35C612199C8F6005866C7 /* FPFrameworkTests.swift in Sources */,
 				0ED35C6E2199C91E005866C7 /* FPSetup.swift in Sources */,
 			);
