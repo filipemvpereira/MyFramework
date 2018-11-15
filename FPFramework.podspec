@@ -8,13 +8,15 @@ Pod::Spec.new do |s|
      s.license      = { :type => "MIT", :text => "The MIT License (MIT)\n Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files" }
      s.author       = { "Filipe Pereira" => "filas21pereira@gmail.com" }
      s.source       = { :git => "https://github.com/filipemvpereira/MyFramework.git", :tag => s.version.to_s }
-     s.source_files = "FPFramework/Public/*.swift"
+     # s.source              = { :http => "https://github.com/filipemvpereira/MyFramework/archive/#{s.version}.zip" }
+
+     s.source_files = "FPFramework/FPSetup.swift"
      s.exclude_files =  "Classes/Exclude"
      # s.ios.deployment_target = '12.0'
      s.requires_arc  = true
      s.platform      = :ios, "8.0"
      s.swift_version = '4.2'
-     s.vendored_frameworks = 'FPFramework/FPFramework.framework'
+     # s.ios.vendored_frameworks = 'FPFramework/FPFramework.framework'
 
      
      s.dependency 'ObjectMapper'
