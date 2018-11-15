@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E3EA806219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
 		0E3EA807219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
+		0EB24655219DE05C006B973B /* FPPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB24654219DE05C006B973B /* FPPublicHeader.h */; };
 		0ED35C5C2199C8F6005866C7 /* FPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED35C522199C8F6005866C7 /* FPFramework.framework */; };
 		0ED35C612199C8F6005866C7 /* FPFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED35C602199C8F6005866C7 /* FPFrameworkTests.swift */; };
 		0ED35C632199C8F6005866C7 /* FPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED35C552199C8F6005866C7 /* FPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		0E3EA805219D83660068DAB1 /* FPPrivate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPPrivate.swift; sourceTree = "<group>"; };
 		0EAE3C4C219DC62A00E18B31 /* Pods_FPFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FPFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB24654219DE05C006B973B /* FPPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPPublicHeader.h; sourceTree = "<group>"; };
 		0ED35C522199C8F6005866C7 /* FPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED35C552199C8F6005866C7 /* FPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFramework.h; sourceTree = "<group>"; };
 		0ED35C562199C8F6005866C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
+		0EB24653219DE03B006B973B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0EB24654219DE05C006B973B /* FPPublicHeader.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		0ED35C482199C8F6005866C7 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 		0ED35C542199C8F6005866C7 /* FPFramework */ = {
 			isa = PBXGroup;
 			children = (
+				0EB24653219DE03B006B973B /* Headers */,
 				0E3EA804219D83520068DAB1 /* Private */,
 				0E3EA803219D83440068DAB1 /* Public */,
 				0ED35C552199C8F6005866C7 /* FPFramework.h */,
@@ -153,6 +164,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB24655219DE05C006B973B /* FPPublicHeader.h in Headers */,
 				0ED35C632199C8F6005866C7 /* FPFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
