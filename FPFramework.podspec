@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
      s.name         = "FPFramework"
-     s.version      = "0.1.13"
+     s.version      = "0.1.14"
      s.summary      = "Sort description of Filipe framework"
      s.description  = "Demo example of Cocoa Touch Framework. In this example you can distrubute framework without sharing the source code."
      s.homepage     = "https://github.com/filipemvpereira/MyFramework.git"
@@ -11,9 +11,8 @@ Pod::Spec.new do |s|
      s.source              = { :http => "https://github.com/filipemvpereira/MyFramework/releases/download/#{s.version}/FPFramework.zip" }
 
      # s.source_files = "FPFramework/FPFramework.framework/**"
-     s.source_files = "FPFramework/FPFramework.framework/**/*.swift"
      s.exclude_files = "FPFramework/FPFramework.framework/*.plist"
-     # s.public_header_files = "FPFramework/FPFramework.framework/**"
+     s.public_header_files = "FPFramework/FPFramework.framework/Headers/*.h"
      # s.ios.deployment_target = '12.0'
      s.requires_arc  = true
      s.platform      = :ios, "8.0"
