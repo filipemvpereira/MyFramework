@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
      # s.source_files = "FPFramework/FPFramework.framework/**"
      s.exclude_files = "FPFramework/FPFramework.framework/*.plist"
-     s.public_header_files = "FPFramework/FPFramework.framework/Headers/*.h"
+     s.public_header_files = "FPFramework/FPFramework.framework/Headers/*.{h}"
      # s.ios.deployment_target = '12.0'
      s.requires_arc  = true
      s.platform      = :ios, "8.0"
