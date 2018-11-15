@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
      s.name         = "FPFramework"
-     s.version      = "0.1.9"
+     s.version      = "0.1.10"
      s.summary      = "Sort description of Filipe framework"
      s.description  = "Demo example of Cocoa Touch Framework. In this example you can distrubute framework without sharing the source code."
      s.homepage     = "https://github.com/filipemvpereira/MyFramework.git"
