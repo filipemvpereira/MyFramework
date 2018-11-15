@@ -14,8 +14,9 @@
 		0ED35C632199C8F6005866C7 /* FPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED35C552199C8F6005866C7 /* FPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ED35C6D2199C91E005866C7 /* FPSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED35C6C2199C91E005866C7 /* FPSetup.swift */; };
 		0ED35C6E2199C91E005866C7 /* FPSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED35C6C2199C91E005866C7 /* FPSetup.swift */; };
-		8E758429E1CF0F892F87B2C4 /* Pods_FPFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7122FD8EFD9187607E1D178D /* Pods_FPFrameworkTests.framework */; };
-		B1C68959504D0AEEFAEC7E69 /* Pods_FPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D933073F8AC525AADE0655 /* Pods_FPFramework.framework */; };
+		344C2FA6450E69F96D5A1597 /* Pods_FPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C434F4D9FE27F382AF0E41 /* Pods_FPFramework.framework */; };
+		C7E224E3EE065D48B341357D /* Pods_FPFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE3C4C219DC62A00E18B31 /* Pods_FPFrameworkTests.framework */; };
+		E0BAF9F5CDCD77DB465C71C6 /* Pods_FPFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FB13DA50D41C30C7A5856C /* Pods_FPFrameworkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BFC62FF529131432194507 /* Pods-FPFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPFrameworkTests/Pods-FPFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		018A58F338EF85D463E5EF7E /* Pods-FPFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPFrameworkTests/Pods-FPFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		0E3EA805219D83660068DAB1 /* FPPrivate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPPrivate.swift; sourceTree = "<group>"; };
+		0EAE3C4C219DC62A00E18B31 /* Pods_FPFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FPFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED35C522199C8F6005866C7 /* FPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED35C552199C8F6005866C7 /* FPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFramework.h; sourceTree = "<group>"; };
 		0ED35C562199C8F6005866C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,10 +39,12 @@
 		0ED35C602199C8F6005866C7 /* FPFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPFrameworkTests.swift; sourceTree = "<group>"; };
 		0ED35C622199C8F6005866C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ED35C6C2199C91E005866C7 /* FPSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSetup.swift; sourceTree = "<group>"; };
-		1FC491388AC772A38302580A /* Pods-FPFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPFramework/Pods-FPFramework.release.xcconfig"; sourceTree = "<group>"; };
-		7122FD8EFD9187607E1D178D /* Pods_FPFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9D933073F8AC525AADE0655 /* Pods_FPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE68BDFD825D19C5A6245714 /* Pods-FPFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPFramework/Pods-FPFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		A81511C58171037CCF1BE3CF /* Pods-FPFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPFramework/Pods-FPFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FB13DA50D41C30C7A5856C /* Pods_FPFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3818E2181F37A9FD6CF1D64 /* Pods-FPFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPFrameworkTests/Pods-FPFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3C434F4D9FE27F382AF0E41 /* Pods_FPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BD538EAE8CD730F4B8BBBC /* Pods-FPFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPFramework/Pods-FPFramework.release.xcconfig"; sourceTree = "<group>"; };
+		F76CFFCC8050446FAA26C197 /* Pods-FPFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPFrameworkTests/Pods-FPFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C68959504D0AEEFAEC7E69 /* Pods_FPFramework.framework in Frameworks */,
+				344C2FA6450E69F96D5A1597 /* Pods_FPFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED35C5C2199C8F6005866C7 /* FPFramework.framework in Frameworks */,
-				8E758429E1CF0F892F87B2C4 /* Pods_FPFrameworkTests.framework in Frameworks */,
+				E0BAF9F5CDCD77DB465C71C6 /* Pods_FPFrameworkTests.framework in Frameworks */,
+				C7E224E3EE065D48B341357D /* Pods_FPFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +91,8 @@
 				0ED35C542199C8F6005866C7 /* FPFramework */,
 				0ED35C5F2199C8F6005866C7 /* FPFrameworkTests */,
 				0ED35C532199C8F6005866C7 /* Products */,
-				19FF81653C7DD93828D6862F /* Pods */,
-				37E63002B0EACDC7968A262D /* Frameworks */,
+				184409B9EEF07AB444882B8D /* Pods */,
+				7768B141A1BB351E736FE32B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,22 +125,23 @@
 			path = FPFrameworkTests;
 			sourceTree = "<group>";
 		};
-		19FF81653C7DD93828D6862F /* Pods */ = {
+		184409B9EEF07AB444882B8D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE68BDFD825D19C5A6245714 /* Pods-FPFramework.debug.xcconfig */,
-				1FC491388AC772A38302580A /* Pods-FPFramework.release.xcconfig */,
-				00BFC62FF529131432194507 /* Pods-FPFrameworkTests.debug.xcconfig */,
-				018A58F338EF85D463E5EF7E /* Pods-FPFrameworkTests.release.xcconfig */,
+				A81511C58171037CCF1BE3CF /* Pods-FPFramework.debug.xcconfig */,
+				E3BD538EAE8CD730F4B8BBBC /* Pods-FPFramework.release.xcconfig */,
+				F76CFFCC8050446FAA26C197 /* Pods-FPFrameworkTests.debug.xcconfig */,
+				D3818E2181F37A9FD6CF1D64 /* Pods-FPFrameworkTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		37E63002B0EACDC7968A262D /* Frameworks */ = {
+		7768B141A1BB351E736FE32B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9D933073F8AC525AADE0655 /* Pods_FPFramework.framework */,
-				7122FD8EFD9187607E1D178D /* Pods_FPFrameworkTests.framework */,
+				0EAE3C4C219DC62A00E18B31 /* Pods_FPFrameworkTests.framework */,
+				D3C434F4D9FE27F382AF0E41 /* Pods_FPFramework.framework */,
+				D1FB13DA50D41C30C7A5856C /* Pods_FPFrameworkTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,7 +187,6 @@
 				0ED35C572199C8F6005866C7 /* Sources */,
 				0ED35C582199C8F6005866C7 /* Frameworks */,
 				0ED35C592199C8F6005866C7 /* Resources */,
-				9E53959A7E50D143FBBEEF45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,24 +253,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9E53959A7E50D143FBBEEF45 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FPFrameworkTests/Pods-FPFrameworkTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FPFrameworkTests/Pods-FPFrameworkTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B276E713F906699952152151 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,7 +446,7 @@
 		};
 		0ED35C672199C8F6005866C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE68BDFD825D19C5A6245714 /* Pods-FPFramework.debug.xcconfig */;
+			baseConfigurationReference = A81511C58171037CCF1BE3CF /* Pods-FPFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -490,7 +475,7 @@
 		};
 		0ED35C682199C8F6005866C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FC491388AC772A38302580A /* Pods-FPFramework.release.xcconfig */;
+			baseConfigurationReference = E3BD538EAE8CD730F4B8BBBC /* Pods-FPFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -517,7 +502,7 @@
 		};
 		0ED35C6A2199C8F6005866C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00BFC62FF529131432194507 /* Pods-FPFrameworkTests.debug.xcconfig */;
+			baseConfigurationReference = F76CFFCC8050446FAA26C197 /* Pods-FPFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,7 +521,7 @@
 		};
 		0ED35C6B2199C8F6005866C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 018A58F338EF85D463E5EF7E /* Pods-FPFrameworkTests.release.xcconfig */;
+			baseConfigurationReference = D3818E2181F37A9FD6CF1D64 /* Pods-FPFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
