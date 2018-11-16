@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		0E3EA806219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
 		0E3EA807219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
-		0EB24655219DE05C006B973B /* FPPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB24654219DE05C006B973B /* FPPublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EB24657219DED9E006B973B /* TESTE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB24656219DED9E006B973B /* TESTE.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB2469B219EE2CF006B973B /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB2469A219EE2CF006B973B /* Core.m */; };
+		0EB2469D219EE4F3006B973B /* CoreSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB2469C219EE4F3006B973B /* CoreSwift.swift */; };
+		0EB2469E219EE556006B973B /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB24699219EE2B0006B973B /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB246A7219EEEE0006B973B /* CoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB246A6219EEEE0006B973B /* CoreManager.swift */; };
 		0ED35C5C2199C8F6005866C7 /* FPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED35C522199C8F6005866C7 /* FPFramework.framework */; };
 		0ED35C612199C8F6005866C7 /* FPFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED35C602199C8F6005866C7 /* FPFrameworkTests.swift */; };
 		0ED35C632199C8F6005866C7 /* FPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED35C552199C8F6005866C7 /* FPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,8 +36,10 @@
 /* Begin PBXFileReference section */
 		0E3EA805219D83660068DAB1 /* FPPrivate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPPrivate.swift; sourceTree = "<group>"; };
 		0EAE3C4C219DC62A00E18B31 /* Pods_FPFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FPFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EB24654219DE05C006B973B /* FPPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPPublicHeader.h; sourceTree = "<group>"; };
-		0EB24656219DED9E006B973B /* TESTE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESTE.swift; sourceTree = "<group>"; };
+		0EB24699219EE2B0006B973B /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		0EB2469A219EE2CF006B973B /* Core.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		0EB2469C219EE4F3006B973B /* CoreSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSwift.swift; sourceTree = "<group>"; };
+		0EB246A6219EEEE0006B973B /* CoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreManager.swift; sourceTree = "<group>"; };
 		0ED35C522199C8F6005866C7 /* FPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED35C552199C8F6005866C7 /* FPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFramework.h; sourceTree = "<group>"; };
 		0ED35C562199C8F6005866C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,8 +96,10 @@
 		0EB24653219DE03B006B973B /* Public_Headers */ = {
 			isa = PBXGroup;
 			children = (
-				0EB24654219DE05C006B973B /* FPPublicHeader.h */,
-				0EB24656219DED9E006B973B /* TESTE.swift */,
+				0EB24699219EE2B0006B973B /* Core.h */,
+				0EB2469A219EE2CF006B973B /* Core.m */,
+				0EB2469C219EE4F3006B973B /* CoreSwift.swift */,
+				0EB246A6219EEEE0006B973B /* CoreManager.swift */,
 			);
 			path = Public_Headers;
 			sourceTree = "<group>";
@@ -167,8 +173,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EB24655219DE05C006B973B /* FPPublicHeader.h in Headers */,
 				0ED35C632199C8F6005866C7 /* FPFramework.h in Headers */,
+				0EB2469E219EE556006B973B /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +319,9 @@
 			files = (
 				0ED35C6D2199C91E005866C7 /* FPSetup.swift in Sources */,
 				0E3EA806219D83660068DAB1 /* FPPrivate.swift in Sources */,
-				0EB24657219DED9E006B973B /* TESTE.swift in Sources */,
+				0EB246A7219EEEE0006B973B /* CoreManager.swift in Sources */,
+				0EB2469D219EE4F3006B973B /* CoreSwift.swift in Sources */,
+				0EB2469B219EE2CF006B973B /* Core.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A81511C58171037CCF1BE3CF /* Pods-FPFramework.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3BD538EAE8CD730F4B8BBBC /* Pods-FPFramework.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
