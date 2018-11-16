@@ -10,6 +10,7 @@
 		0E3EA806219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
 		0E3EA807219D83660068DAB1 /* FPPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA805219D83660068DAB1 /* FPPrivate.swift */; };
 		0EB24655219DE05C006B973B /* FPPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB24654219DE05C006B973B /* FPPublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB24657219DED9E006B973B /* TESTE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB24656219DED9E006B973B /* TESTE.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ED35C5C2199C8F6005866C7 /* FPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED35C522199C8F6005866C7 /* FPFramework.framework */; };
 		0ED35C612199C8F6005866C7 /* FPFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED35C602199C8F6005866C7 /* FPFrameworkTests.swift */; };
 		0ED35C632199C8F6005866C7 /* FPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED35C552199C8F6005866C7 /* FPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +35,7 @@
 		0E3EA805219D83660068DAB1 /* FPPrivate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPPrivate.swift; sourceTree = "<group>"; };
 		0EAE3C4C219DC62A00E18B31 /* Pods_FPFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FPFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB24654219DE05C006B973B /* FPPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPPublicHeader.h; sourceTree = "<group>"; };
+		0EB24656219DED9E006B973B /* TESTE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESTE.swift; sourceTree = "<group>"; };
 		0ED35C522199C8F6005866C7 /* FPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED35C552199C8F6005866C7 /* FPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFramework.h; sourceTree = "<group>"; };
 		0ED35C562199C8F6005866C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				0EB24654219DE05C006B973B /* FPPublicHeader.h */,
+				0EB24656219DED9E006B973B /* TESTE.swift */,
 			);
 			path = Public_Headers;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			files = (
 				0ED35C6D2199C91E005866C7 /* FPSetup.swift in Sources */,
 				0E3EA806219D83660068DAB1 /* FPPrivate.swift in Sources */,
+				0EB24657219DED9E006B973B /* TESTE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,10 +482,11 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.agentifai.FPFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=*]" = "arm64 arm64e armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
@@ -506,7 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.agentifai.FPFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
